@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <title>BookSpace</title>
+  </head>
+  <body>
+    <div class="bd">
+      <nav id="nav-container">
+        <div class="name">
+          <h1>BookSpace</h1>
+        </div>
+      </nav>
+      <div id="body">
+        <div id="book-info">
+          <h2>Rich Dad Poor Dad</h2>
+          <h3>Robert</h3>
+          <p>
+            Lorem ipsumq werftyuiopasd cfghj ksfrtccccc cccuiugiuog bviyfg bnimi.
+            Perspiciatis error nostrum cupidi tate maiores quidem doloribus
+            consectetur.
+          </p>
+          <button id="book-del" onclick="del(event)">DELETE</button>
+        </div>
+      </div>
+    </div>
+    <button id="plus-btn" onclick="open_add()">+</button>
+    <!-- !----------pop-up------------ -->
+    <!-- !----------pop-up------------ -->
+    <!-- !----------pop-up------------ -->
+
+    <div id="popup-bg">
+      <div id="popup">
+        <form>
+          <input type="text" id="book-name" placeholder="Book Title" /> <br>
+          <input type="text" id="book-author" placeholder="Book Author" /> <br>
+          <textarea name="" placeholder="Book Description" id="txtarea" ></textarea> <br>
+          <button id="add-book">ADD</button>
+          <button id="cancle" onclick="close()">CANCLE</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
